@@ -4,7 +4,7 @@
 
 マウスの操作があるときに呼ばれる関数
 
-<img src="https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image3.gif?raw=true" width="2000px">
+<img src="https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image4.gif?raw=true" width="2000px">
 
 
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/heartrate.gif)
