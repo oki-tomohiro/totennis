@@ -6,6 +6,9 @@
 
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image3.gif)
 
+<img src="https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image3.gif" width="320px">
+
+
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/heartrate.gif)
 
 aavddfrfesfredx
