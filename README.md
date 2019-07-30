@@ -44,7 +44,7 @@ https://stackoverflow.com/questions/42263625/big-gif-from-a-third-party-site-doe
 gifは表示されなかった.結局,スマホで実行の様子を撮影し,gifを作成することとなった.
 
 一番下の画像は,元画像とその振幅スペクトルであり,今回はこれを使った.ちなみに,https://www.hello-python.com/2018/02/16/numpy%E3%81%A8opencv%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E7%94%BB%E5%83%8F%E3%81%AE%E3%83%95%E3%83%BC%E3%83%AA%E3%82%A8%E5%A4%89%E6%8F%9B%E3%81%A8%E9%80%86%E5%A4%89%E6%8F%9B/
-より引用したした.
+より引用した.
 
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier2.gif)
 
