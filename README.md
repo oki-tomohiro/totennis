@@ -6,7 +6,7 @@
 
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image3.gif)
 
-<img src="https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image3.gif?raw=true" width="320px">
+<img src="https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image3.gif?raw=true" width="2000px">
 
 
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/heartrate.gif)
