@@ -4,6 +4,6 @@
 
 マウスの操作があるときに呼ばれる関数
 
-![demo](https://raw.github.com/wiki/oki-tomohiro/totennis/totennis.wiki/images/fourier.gif)
+![demo](https://raw.github.com/wiki/oki-tomohiro/totennis/totennis.wiki/fourier.gif)
 
 aavddfrfesfredx
