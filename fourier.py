@@ -7,11 +7,10 @@ img = cv2.imread("mt_fuji.jpg",cv2.IMREAD_GRAYSCALE)
 
 locate = np.zeros(img.shape) #ü”g”—Ìˆæ‚Ì‰æ‘œ‚ÆÆ‚ç‚µ‡‚í‚¹‚é.
 
-im = np.zeros(img.shape,dtype=np.complex128)
-im2 = np.fft.fft2(img)
-im3 = np.fft.fftshift(im2) #ƒt[ƒŠƒG•ÏŠ·Œã
-im4 = np.abs(im3)
-frequency = np.log(im4) #U•ƒXƒyƒNƒgƒ‹
+im1 = np.fft.fft2(img)
+im2 = np.fft.fftshift(im1) #ƒt[ƒŠƒG•ÏŠ·Œã
+im3 = np.abs(im2)
+frequency = np.log(im3) #U•ƒXƒyƒNƒgƒ‹
 frequency = (frequency-frequency.min()) / (frequency.max()-frequency.min()) #0‚©‚ç1‚Ö³‹K‰»‚µ‚Ä‚¢‚é
 
 IM1 = np.zeros(img.shape,dtype=np.complex128) #Še“_‚Å‚ÌÈ–Í—l.complexŒ^‚É‚·‚é
@@ -24,15 +23,15 @@ recon=np.zeros(img.shape,dtype=np.float64) #floatŒ^.Ä\¬(reconfigure)‚µ‚½‹óŠÔ—
 h,w = img.shape
 #ƒ}ƒEƒX‚Ì‘€ì‚ª‚ ‚é‚Æ‚«ŒÄ‚Î‚ê‚éŠÖ”
 def callback(event, x, y, flags, param):
-    global sx, sy,locate,IM1,IM2,IMM1,IMM2,im3,IMMM1,IMMM2,only,recon,h,w
+    global sx, sy,locate,IM1,IM2,IMM1,IMM2,im2,IMMM1,IMMM2,only,recon,h,w
     #ƒ}ƒEƒX‚Ì¶ƒ{ƒ^ƒ“‚ªƒNƒŠƒbƒN‚³‚ê‚½‚Æ‚«
     if event == cv2.EVENT_LBUTTONDOWN:
         IM1[sy,sx] = 0 #‚»‚Ì“_‚¾‚¯‚Å‚Ì‹óŠÔ—Ìˆæ‚Å‚Ì”gŒ`‚ğ•\¦‚·‚é‚½‚ß,‘O‚Ì”gŒ`‚Ì—v‘f‚ğ‚È‚­‚µ‚Ä‚¢‚é.
         if ((0 <= y and y <= h-1) and (0 <= x and x <= w-1)): #ƒJ[ƒ\ƒ‹ˆÊ’u‚ª‰æ–Ê“à‚É‚ ‚é‚©
             sy, sx = y, x
             locate[y,x] = 1
-            IM1[y,x] = im3[y,x]
-            IMM1[y,x] = im3[y,x]
+            IM1[y,x] = im2[y,x]
+            IMM1[y,x] = im2[y,x]
             IM2 = IM1 #ƒRƒs[
             IMM2 = IMM1 #ƒRƒs[
             IM2 = np.fft.fftshift(IM2)
@@ -49,8 +48,8 @@ def callback(event, x, y, flags, param):
         if ((0 <= y and y <= h-1) and (0 <= x and x <= w-1)): #ƒJ[ƒ\ƒ‹ˆÊ’u‚ª‰æ–Ê“à‚É‚ ‚é‚©
             sy, sx = y, x
             locate[y,x] = 1
-            IM1[y,x] = im3[y,x]
-            IMM1[y,x] = im3[y,x]
+            IM1[y,x] = im2[y,x]
+            IMM1[y,x] = im2[y,x]
             IM2 = IM1 #ƒRƒs[
             IMM2 = IMM1 #ƒRƒs[
             IM2 = np.fft.fftshift(IM2)
