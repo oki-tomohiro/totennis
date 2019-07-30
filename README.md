@@ -11,4 +11,6 @@
 
 ![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/naga-tomohiro.wiki/images/heartrate.gif)
 
+![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fuji.png)
+
 aavddfrfesfredxaa
