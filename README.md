@@ -4,6 +4,8 @@
 
 マウスの操作があるときに呼ばれる関数
 
+![demo](https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier4_image4.gif)
+
 <img src="https://raw.github.com/wiki/oki-tomohiro/naga-tomohiro/images/fourier_image4.gif?raw=true" width="2000px">
 
 
